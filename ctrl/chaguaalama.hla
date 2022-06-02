@@ -1,0 +1,23 @@
+program chaguaAlama;
+
+#include("stdlib.hhf");
+static
+    op: char;
+
+begin chaguaAlama;
+    stdout.put("Enter the character item:", nl);
+    stdin.get(op);
+    mov(op, ch);
+    if(ch = 'a') then
+        stdout.put("You selected the 'a' menu item", nl);
+    elseif(ch = 'b') then 
+        stdout.put("You selected the 'b' menu item", nl);
+    elseif(ch = 'c') then 
+        stdout.put("You selected the 'c' menu item", nl);
+    elseif(ch = 'd') then 
+        stdout.put("You selected the 'd' menu item", nl);
+    else 
+        stdout.put("Error: illegal menu item selection", nl);
+    endif;
+
+end chaguaAlama;

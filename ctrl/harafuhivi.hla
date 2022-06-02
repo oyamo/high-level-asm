@@ -1,0 +1,17 @@
+program harafuhivi;
+
+#include("stdlib.hhf");
+static
+    i32: int32;
+    
+begin harafuhivi;
+    stdout.put("Enter the required value: ", nl);
+    stdin.get(i32);
+    mov(i32, eax);
+
+    if (eax = 0) then 
+        stdout.put("error: NULL VALUE", nl);
+    else
+        stdout.put("Pointer is valid", nl);
+    endif;
+end harafuhivi;

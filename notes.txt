@@ -1,0 +1,34 @@
+The Anatomy of HLA
+Program progID;
+    Declarations
+begin progID;
+    Statements
+end
+
+Basic types
+int8 - 8Bits
+int16 - 16Bits
+int32  - 32Bits
+
+They take the following form;
+
+Program progID;
+    static
+        i8: int8;
+        i16: int16;
+        i32: int32
+begin progID;
+    Statements
+end
+
+Variable initialisation
+Syntax 
+ static 
+   i8: int8 := 8;
+   i16: int16 := 16;
+   i32: int32 := -320000
+
+Character Values
+Declared using the char keyword
+Example
+

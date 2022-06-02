@@ -1,0 +1,11 @@
+program hesabufor;
+#include("stdlib.hhf");
+
+static 
+    i: int32;
+
+begin hesabufor;
+    for(mov(0, i); i < 10; add(1, i)) do 
+        stdout.put("i = ", i , nl);
+    endfor;
+end hesabufor;

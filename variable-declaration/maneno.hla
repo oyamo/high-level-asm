@@ -1,0 +1,12 @@
+program maneno;
+#include("stdlib.hhf");
+static
+    c: char;
+    letterA: char := 'A';
+
+begin maneno;
+    stdout.put("Initialised character value is ", letterA, nl);
+    stdout.put("Enter an new character value ");
+    stdin.get(c);
+    stdout.put("You entered the following new character value: ", c, nl);
+end maneno;

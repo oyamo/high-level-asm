@@ -1,0 +1,15 @@
+program harafu;
+#include("stdlib.hhf");
+
+static
+    i32: int32;
+
+begin harafu;
+    stdout.put("Enter the required value", i32, nl);
+    stdin.get(i32);
+    mov(i32, eax);
+    if(eax = 0) then
+        stdout.put("error: NULL VALUE", nl);
+    endif;
+
+end harafu;

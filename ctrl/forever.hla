@@ -1,0 +1,15 @@
+program milele;
+
+#include("stdlib.hhf");
+
+static
+    i: int32;
+
+begin milele;
+    forever
+        stdout.put("Enter an integer less than 10: ");
+        stdin.get(i);
+        breakif( i < 10 );
+        stdout.put("The value needs to be less than 10!", nl);
+    endfor;
+end milele;
